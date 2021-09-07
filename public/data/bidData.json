@@ -1,0 +1,52 @@
+[
+  {
+    "value": 32.1,
+    "shares": 100,
+    "type": "bid"
+  },
+  {
+    "value": 32.08,
+    "shares": 150,
+    "type": "bid"
+  },
+  {
+    "value": 32.07,
+    "shares": 200,
+    "type": "bid"
+  },
+  {
+    "value": 32.06,
+    "shares": 300,
+    "type": "bid"
+  },
+  {
+    "value": 32.05,
+    "shares": 350,
+    "type": "bid"
+  },
+  {
+    "value": 32.04,
+    "shares": 400,
+    "type": "bid"
+  },
+  {
+    "value": 32.03,
+    "shares": 425,
+    "type": "bid"
+  },
+  {
+    "value": 32.02,
+    "shares": 450,
+    "type": "bid"
+  },
+  {
+    "value": 32.01,
+    "shares": 470,
+    "type": "bid"
+  },
+  {
+    "value": 32,
+    "shares": 500,
+    "type": "bid"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": [
+        "./src/*"
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@services/*": [
+        "./shared/services/*"
+      ],
+      "@api/*": [
+        "./shared/api/*"
+      ],
+      "@config/*": [
+        "./shared/config/*"
+      ],
+      "@components/*": [
+        "./shared/components/*"
+      ],
+      "@hooks/*": [
+        "./shared/hooks/*"
+      ],
+      "@entities/*": [
+        "./shared/entities/*"
+      ],
+      "@ui/*": [
+        "./shared/ui/*"
+      ],
+      "@routes/*": [
+        "./shared/routes/*"
+      ],
+      "@store/*": [
+        "./shared/store/*"
+      ],
+      "@slicers/*": [
+        "./shared/store/slicers/*"
+      ],
+      "@utils/*": [
+        "./shared/utils/*"
+      ],
+      "@portal/*": [
+        "./portal/*"
+      ],
+      "@features/*": [
+        "./portal/features/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "it": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "rules": {
+    "dot-notation": 0,
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "global-require": 0,
+    "no-console": 0,
+    "no-nested-ternary": 0,
+    "no-restricted-globals": 0,
+    "no-unused-expressions": 0,
+    "no-unused-vars": "warn",
+    "no-use-before-define": 0,
+    "no-shadow": 0,
+    "@typescript-eslint/no-use-before-define": [
+      "error"
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/no-unescaped-entities": 0,
+    "react/require-default-props": 0,
+    "react/jsx-curly-newline": 0,
+    "no-param-reassign": [
+      // Turned off because of immer inside redux/toolkit which is used in reducers
+      // https://github.com/immerjs/immer/issues/189#issuecomment-422045470
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["state"]
+      }
+    ],
+    //allow spreading props
+    "react/jsx-props-no-spreading": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ],
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  }
+}

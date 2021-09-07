@@ -1,0 +1,9 @@
+build/*
+public/*
+src/react-app-env.d.ts
+src/serviceWorker.ts
+craco.config.js
+.env
+.env.development
+.env.staging
+.env.production

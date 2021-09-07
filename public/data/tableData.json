@@ -1,0 +1,62 @@
+[
+  {
+    "bidShares": 800,
+    "bidValue": 32.1,
+    "askValue": 32.1,
+    "askShares": 100
+  },
+  {
+    "bidShares": 150,
+    "bidValue": 32.08,
+    "askValue": 32.11,
+    "askShares": 170
+  },
+  {
+    "bidShares": 200,
+    "bidValue": 32.07,
+    "askValue": 32.12,
+    "askShares": 180
+  },
+  {
+    "bidShares": 300,
+    "bidValue": 32.06,
+    "askValue": 32.13,
+    "askShares": 200
+  },
+  {
+    "bidShares": 350,
+    "bidValue": 32.05,
+    "askValue": 32.14,
+    "askShares": 210
+  },
+  {
+    "bidShares": 400,
+    "bidValue": 32.04,
+    "askValue": 32.15,
+    "askShares": 220
+  },
+  {
+    "bidShares": 425,
+    "bidValue": 32.03,
+    "askValue": 32.16,
+    "askShares": 1000
+  },
+  {
+    "bidShares": 450,
+    "bidValue": 32.02,
+    "askValue": 32.17,
+    "askShares": 450
+  },
+  {
+    "bidShares": 470,
+    "bidValue": 32.01,
+    "askValue": 32.18,
+    "askShares": 500
+  },
+  {
+    "bidShares": 500,
+    "bidValue": 32,
+    "askValue": 32.2,
+    "askShares": 550
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "value": 32.2,
+    "shares": 550,
+    "type": "ask"
+  },
+  {
+    "value": 32.18,
+    "shares": 500,
+    "type": "ask"
+  },
+  {
+    "value": 32.17,
+    "shares": 450,
+    "type": "ask"
+  },
+  {
+    "value": 32.16,
+    "shares": 400,
+    "type": "ask"
+  },
+  {
+    "value": 32.15,
+    "shares": 220,
+    "type": "ask"
+  },
+  {
+    "value": 32.14,
+    "shares": 210,
+    "type": "ask"
+  },
+  {
+    "value": 32.13,
+    "shares": 200,
+    "type": "ask"
+  },
+  {
+    "value": 32.12,
+    "shares": 180,
+    "type": "ask"
+  },
+  {
+    "value": 32.11,
+    "shares": 170,
+    "type": "ask"
+  },
+  {
+    "value": 32.1,
+    "shares": 100,
+    "type": "ask"
+  }
+]
